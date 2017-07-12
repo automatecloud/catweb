@@ -1,6 +1,9 @@
 # our base image
 FROM alpine:latest
 
+# Maintainer
+MAINTAINER andreas@docker.com
+
 # Install python and pip
 RUN apk add --update py-pip
 
